@@ -1,0 +1,58 @@
+A)
+
+stdout:
+Nada
+
+output1.txt:
+18
+19
+21
+
+`ex1 18` escreve no file descriptor 1:
+18
+19
+20
+21
+
+O file descriptor 1 deste processo é redirecionado para o file descriptor 0 do próximo commando através do pipe (`|`).
+
+`grep 1` escreve no file descriptor 1:
+18
+19
+21
+
+O file descriptor 1 deste processo é redirecionado para o ficheiro output1.txt (`> output1.txt`).
+
+
+B)
+
+stdout:
+78
+80
+
+output2.txt:
+77
+78
+79
+80
+
+`ex1 77` escreve no file descriptor 1:
+77
+78
+79
+80
+
+O file descriptor 1 deste processo é redirecionado para o file descriptor 0 do próximo commando através do pipe (`|`).
+
+`tee output2.txt` escreve para o file descriptor 1 e para o ficheiro output2.txt:
+77
+78
+79
+80
+
+O file descriptor 1 deste processo é redirecionado para o file descriptor 0 do próximo commando através do pipe (`|`).
+
+`grep 8` escreve para o file descriptor 1:
+78
+80
+

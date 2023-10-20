@@ -1,0 +1,3 @@
+Todos (512).
+
+Como o PTE que referencia o indice 9 da tabela de 3º nivel tem o bit R/W = 0, a tabela completa que está nesse indice é read only.

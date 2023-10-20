@@ -1,0 +1,13 @@
+Cada tabela é descrita por 9 bits, ou seja, 512 entradas.
+
+
+Endereço Virtual: 12 bits de offset + 9 * 4 bits de page tables + 16 bits de sign extend
+
+SigExt = 000 = 0b0000000000000000
+PML4   = 017 = 0b000010001
+PDP    = 001 = 0b000000001
+PD     = 009 = 0b000001001
+PT     = 003 = 0b000000011
+Offset = 000 = 0b000000000000
+
+Endereço virtual = SigExt + PML4 + PDP + PD + PT + Offset = 0b0000000000000000000010001000000001000001001000000011000000000000 = 0x0000088041203000
