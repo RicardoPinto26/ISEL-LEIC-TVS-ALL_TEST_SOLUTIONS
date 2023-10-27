@@ -1,0 +1,6 @@
+São criados 4 processos. É criado 1 processo pela função do_cmd (quando faz fork()).
+
+O Shell, vai criar um processo por comando que tem de executar, logo vai criar 3.
+
+
+Espera-se no ficheiro out.txt o número de ficheiros encontrados que tenham "test" no nome e a extensão .c

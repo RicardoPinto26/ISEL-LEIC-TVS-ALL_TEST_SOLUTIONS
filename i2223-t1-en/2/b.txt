@@ -1,0 +1,2 @@
+Com nível de privilégio 0, o processo de tradução poderá ser concluído, visto que com o nível de privilégio 0, é possivel ler qualquer tabela, independente do bit U/S.
+Com nível de privilégio 3, o prcesso de trudução não poderá ser concluído, visto que só é possivel ler tabelas com bit U/S = 1;.

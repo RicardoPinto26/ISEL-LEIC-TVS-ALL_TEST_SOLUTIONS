@@ -1,0 +1,9 @@
+a. Ficheiro Executável.
+
+b. Swap Partition.
+
+c. Swap Partition.
+
+d. Ficheiro.
+
+e. ZERO PAGE.

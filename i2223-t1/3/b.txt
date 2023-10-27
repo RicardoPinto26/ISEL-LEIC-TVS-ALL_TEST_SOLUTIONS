@@ -1,0 +1,1 @@
+Ao lançar a função func, estamos a ler do .data. Como a região associada ao .data tem 4KB, e existem 4 processos a partilhar a mesma página, Pss = 4KB / 4 = 1KB

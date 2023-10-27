@@ -1,0 +1,7 @@
+As exceções são interrupções do processador. Sempre que é necessário lidar com as interrupções, é também necessário elevar o nivel de privilégio.
+
+
+Exemplo de Erro: Um processo tenta aceder a um PTE não permitido (Fora da gama permitida).
+
+Exemplo de não Erro: Page Fault. Um processo tenta aceder a uma página não mapeada, o que causa um page fault exception. No entanto, esta exception
+é usada para implementar o paging, pelo que não se trata de um erro.

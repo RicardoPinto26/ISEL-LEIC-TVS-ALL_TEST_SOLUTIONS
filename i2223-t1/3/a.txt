@@ -1,0 +1,5 @@
+São criadas novas regiões no espaço de endereçamento virtual, sendo pelo menos duas delas:
+Região do .text com permissões de R/X, com ~4KB.
+Região do .data com permissões de R/W, com ~4KB.
+
+(MAIS UMAS CENAS BIZARRAS, NAO SEI SE E PRECISO DIZER TUDO)
