@@ -1,0 +1,2 @@
+Não estão a partilhar. O ponteiro apenas se refere a um address do virtual address space, e não à memoria fisica.
+É possivel partilhar, caso o processo A crie um processo filho, visto que este vai partilhar o espaço de endereçamento.

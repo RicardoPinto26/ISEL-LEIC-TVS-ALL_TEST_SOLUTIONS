@@ -1,0 +1,7 @@
+Vão ser criadas 6 novas regiões (provavelmente todas ~4KB) para:
+Header,
+.text
+.rodata
+.data
+heap
+e outra read only.

@@ -1,0 +1,1 @@
+Irá ser acrescentada uma região com ~8KB de size.
