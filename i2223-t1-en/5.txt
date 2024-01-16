@@ -1,0 +1,6 @@
+a) Pode aumentar o RSS do data 4kb.
+b) Pode aumentar o RSS do data 4kb.
+c) Pode aumentar o RSS do bss 4kb.
+d) Não aumenta o RSS do data nem do bss.
+e) Não aumenta o RSS do data nem do bss.
+f) Não aumenta o RSS do data nem do bss.

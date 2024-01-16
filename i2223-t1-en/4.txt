@@ -1,0 +1,3 @@
+Os argumentos são passados nos registos x0-x6, sendo o número da system call passado no registo x8. O retorno fica no registo x0.
+
+Ao ser feita a chamada de sistema (com a instrução svc), terá de ser elevado o nivel de privilegio (exception level).
