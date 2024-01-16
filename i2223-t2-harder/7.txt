@@ -1,0 +1,12 @@
+Sintaxe errada para o commando cp, alem disso, para copiar ficheiros para o container é necessário usar a instrução COPY, nao RUN cp.
+
+COPY ./ /opt/isel/tp2/
+
+-----------------------
+
+FROM ubuntu
+WORKDIR /opt/isel/tp2
+COPY ./ /opt/isel/tp2/
+RUN apt update && apt install -y npm nodejs && npm install
+EXPOSE 80
+CMD ["node", "app.js"]

@@ -1,0 +1,2 @@
+O suporte para este modo de tradução permite a existencia de um hypervisor de tipo 2.
+Isto porque os endereços são primeiro traduzidos para o espaço de endereçamento do hypervisor e só depois traduzidos para o espaço de endereçamento fisico do host.

@@ -1,0 +1,2 @@
+No arranque do sistema, o systemd tem um target que pretende alcançar.
+Esse target tem um folder "[target].requires". Dentro desse folder, existem symbolic links para os serviços que pretendem ser lançados no arranque do sistema.

@@ -1,0 +1,7 @@
+a)
+Adicionando um symbolic link para o serviço na pasta nome.target.wants ou nome.target.requires.
+
+Alternativamente, colocando "RequiredBy: nome.target" ou "WantedBy: nome.target" no ficheiro de unidade, e correndo systemctl enable nome.service
+
+b)
+Uma vantagem é o fato de não ser necessário alterar o ficheiro .target, visto que é possivel que vários processos possam adicionar serviços a targets ao mesmo tempo, o que causaria problemas.

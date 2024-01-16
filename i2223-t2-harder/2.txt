@@ -1,0 +1,1 @@
+O espaço de memória alocado pelo malloc não é shared memory, sendo mapeado apenas para o espaço de endereçamento virtual do processo. Logo os outros processos falham com segmentation fault, visto que aquele pointer não é válido nos seus espaços de endereçamento virtuais.

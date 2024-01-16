@@ -1,0 +1,2 @@
+Um named pipe deve ser utilizado de forma unilateral, isto é, existe uma parte que apenas escreve, e uma parte que apenas lê.
+No código, o daemon começa por ler do pipe, e depois escreve no mesmo.
