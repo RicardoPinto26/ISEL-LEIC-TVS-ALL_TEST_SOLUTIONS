@@ -1,0 +1,4 @@
+A principal desvantagem seria a possibilidade de receber pedidos de vários clientes ao mesmo tempo.
+Um named pipe é suportado através de um ficheiro, onde é possivel escrever ou ler. Se vários clientes tentarem escrever as mesmo tempo, é provavel que o resultado seja ilegivel, devido ao interleaving.
+
+Pelo contrário, um unix domain socket é suportado pelo kernel. Ao fazermos uma ligação para um unix domain socket, é nos devolvido um file descriptor dedicado, deixando a ligação ao socket original aberta para receber mais pedidos.

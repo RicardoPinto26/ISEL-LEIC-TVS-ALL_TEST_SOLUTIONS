@@ -1,0 +1,1 @@
+Uma máquina virtual de processo é uma virtualização através de um processo, em que é apenas traduzido o instruction set. Um exemplo deste tipo de máquina virtual é a JVM, em que a tradução ocorre de bytecode para o IS da arquitetura do host.

@@ -1,0 +1,1 @@
+A partilha de memória em si é insuficiente para suportar comunicações mais avançadas. Ao acedermos a memória em diferentes threads, encontramos problemas de concorrencia que têm de ser resolvidos com a utilização de outros mecanismos de IPC.

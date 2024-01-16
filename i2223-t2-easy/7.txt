@@ -1,0 +1,3 @@
+A informação é falsa.
+O Docker não depende do kernel dos contentores, usando sempre o kernel do host.
+A unica necessidade é que o kernel do host seja compativel com o kernel dos contentores.

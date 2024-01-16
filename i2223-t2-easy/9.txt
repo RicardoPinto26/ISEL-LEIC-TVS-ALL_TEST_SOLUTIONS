@@ -1,0 +1,5 @@
+Ao executarmos "ping svcb", o ping será direcionado para um dos 4 contentores svcb (aparentemente random).
+
+Ao executarmos "ping tp2-svcb-1" será direcionado para o contentor tp2-svcb-1.
+
+Isto acontece visto que o dns resolve "svcb" para os 4 endereços (1 endereço para cada contentor), enquanto que também é possivel indicar o contentor especifico, e o dns resolver para o endereço desse contentor (por exemplo: "tp2-svcb-1").

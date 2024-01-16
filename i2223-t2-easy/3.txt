@@ -1,0 +1,11 @@
+a)
+enabled - é iniciado automaticamente no boot.
+disabled - não é iniciado automaticamente no boot.
+active - está em execução.
+inactive - não está em execução.
+
+b)
+Enabled Active - Está configurado para iniciar automaticamente e está em execução.
+Enabled Inactive - Está configurado para iniciar automaticamente mas não está em execução.
+Disabled Active - Não está configurado para iniciar automaticamente mas está em execução.
+Disabled Inactive - Não está configurado para iniciar automaticamente e não está em execução.

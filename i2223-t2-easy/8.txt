@@ -1,0 +1,5 @@
+a)
+Qualquer instrução que resulte numa mudança no filesystem resulta numa nova camada.
+
+b)
+O cache é aproveitado sempre que o hash atual seja igual ao hash da layer anterior da imagem da cache (ou seja, as layers anteriores sejam iguais), e que a instrução atual seja igual à instrução da cache.

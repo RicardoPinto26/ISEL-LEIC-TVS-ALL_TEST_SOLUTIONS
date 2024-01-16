@@ -1,0 +1,3 @@
+Um ficheiro de unidade do tipo .socket serve para conter informação sobre um socket ou named pipe, para utilizar socket activation.
+
+Socket activation é uma funcionalidade disponibilizada pelo systemd. Esta funcionalidade consiste na criação de um socket por parte do system (através da especificação de uma unit .socket), que ao receber uma ligação, começa o serviço.

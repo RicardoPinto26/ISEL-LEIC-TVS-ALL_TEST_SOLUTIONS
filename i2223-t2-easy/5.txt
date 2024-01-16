@@ -1,0 +1,2 @@
+Paravirtualização é uma tecnica de virtualização em que as maquinas virtuais correm no hardware do host, em vez de emularem um hardware diferente.
+A sua principal desvantagem é que o sistema operativo da maquina virtual tem de ser alterado para funcionar com esta tecnica.
