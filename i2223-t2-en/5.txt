@@ -1,0 +1,4 @@
+Tipo 1.
+
+O hypervisor não está instalado em cima de um sistema operativo.
+Sabemos isto visto que a sua instalação vai eliminar todo o conteudo do do disco, incluindo o sistema operativo.

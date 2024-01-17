@@ -1,0 +1,3 @@
+Não interagem por UI.
+A sua inicialização é gerida pelo gestor de serviços.
+Correm em segundo plano.

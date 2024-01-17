@@ -1,0 +1,5 @@
+a)
+Está a ser utilizada a socket activation. O requires implica que o serviço só pode ser lançado se o socket estiver ativo.??
+
+b)
+Não. O socket deve estar em execução antes do serviço. O socket é que irá levar à execução do serviço, quando receber um pedido.

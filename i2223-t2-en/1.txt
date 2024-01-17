@@ -1,0 +1,2 @@
+Sim. O socket unix devolve um file descriptor para cada cliente.
+(Meter mais palha aqui)

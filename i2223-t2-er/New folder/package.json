@@ -1,0 +1,17 @@
+{
+  "name": "tvs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "tvs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
